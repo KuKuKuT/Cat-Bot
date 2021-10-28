@@ -1,2 +1,2 @@
-# Cat
-A lightweight WhatsApp bot written with Baileys.
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KuKuKuT/Kundamandi)
+

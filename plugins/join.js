@@ -38,8 +38,8 @@ ${usedPrefix}join <cat bot support group link>
              await m.reply(`😿 Bye Bye Guys! The Person who invited me here has decided to get me out. See you guys later! 😿`)
              conn.groupLeave(m.chat)
         } else {
-             await m.reply(`*😼 You are not an Admin to decide whether I should stay here or not. 😼*`
-        })
+             await m.reply(`*😼 You are not an Admin to decide whether I should stay here or not. 😼*`)
+        }
       }
 }
 handler.command = /^join$/i

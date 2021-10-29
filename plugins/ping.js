@@ -2,12 +2,12 @@ let os = require('os')
 let util = require('util')
 let { performance } = require('perf_hooks')
 
-let name = await conn.getName(m.sender)
-let about = await conn.getStatus(m.sender).catch(console.error) || {}).status || ''
+let name = conn.getName(m.sender)
+let about = conn.getStatus(m.sender).catch(console.error) || {}).status || ''
 let jid = m.sender.split`@`[0] + '@s.whatsapp.net'
 let user = global.db.data.users[m.sender]
 let developed = ''
-let date = 'Enter developed Date here'
+let date = '2021 11 1'
 let d = new Date()
 let ageD = new Date(d - date)
 let age = ageD.getFullYear() - new Date(1970, 0, 1).getFullYear()

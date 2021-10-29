@@ -2,7 +2,7 @@ let handler = m => m
 
 handler.all = async function (m) {
 
-let date = 'Enter developed Date here'
+let date = '2021 11 1'
 let name = this.getName(m.sender)
 let d = new Date()
 let [varsham, masam, thiyathi] = [d.getFullYear(), d.getMonth() + 1, d.getDate()]
@@ -27,7 +27,7 @@ let birthday = [varsham + (+ new Date(1970, bulan - 1, tanggal) > + new Date(197
           if (/^.*HBDCAT/i.test(m.text)) {
                m.reply(`*It Warmed my heart! 😸 Thanks a lot ${name} 😽*`)
           } else if (/^.*Happy\birthday\Cat|HBD\Cat/i.test(m.text)) {
-               m.reply(`*😽 Thanks a lot ${name} 😽*`
-          })
+               m.reply(`*😽 Thanks a lot ${name} 😽*`)
+          }
        }
      }

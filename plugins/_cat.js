@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedPrefix: _p }) => {
 let name = await conn.getName(m.sender)
-let about = await conn.getStatus(m.sender).catch(console.error) || {}).status || ''
+let about = await conn.getStatus(m.sender).catch(console.error) || {}.status || ''
 let jid = m.sender.split`@`[0] + '@s.whatsapp.net'
 let fs = require('fs')
 let catLogo = fs.readFileSync('./src/image/Cat-Bot.jpg')

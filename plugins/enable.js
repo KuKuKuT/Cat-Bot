@@ -151,7 +151,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isG
 *😺Example:*
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
-`.trim(), ``, `${isGroup ? 'Set Welcome 😺' : 'Nice Bot 😽'}`, `,${isGroup ? '${_p}enable welcome' : 'Nice'}`, `${isGroup ? 'Set Delete 😺' : 'Menu 😻'}`, `,${isGroup ? '${_p}enable delete' : '${_p}cat'}`
+`.trim(), ``, `${isGroup ? 'Set Welcome 😺' : 'Nice Bot 😽'}`, `,${isGroup ? '${_p}enable welcome' : 'Nice'}`, `${isGroup ? 'Set Delete 😺' : 'Menu 😻'}`, `,${isGroup ? `${_p}enable delete` : `${_p}cat`}`
       throw false
   }
   m.reply(`

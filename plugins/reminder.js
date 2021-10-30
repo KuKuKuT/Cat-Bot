@@ -25,7 +25,7 @@ if (!args[0].includes('m') || !args[0].includes('h') || !args[0].includes('d') {
 }
 
 var isReason = ''
-if (match[1].includes('/')) {
+if (args[0].includes('/')) {
      isReason = `Your reminder is here!\nReason: ${reason}`
 } else {
      isReason = `Your reminder is here!`

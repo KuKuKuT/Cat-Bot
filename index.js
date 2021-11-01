@@ -1,4 +1,4 @@
-console.log('Loading...')
+console.log('CatBot - Made by TOXIC DEVIL')
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')

@@ -33,7 +33,7 @@ function start(file) {
     stdio: ['inherit', 'inherit', 'inherit', 'ipc']
   })
   p.on('message', data => {
-    console.log('[ RECEIVED TO CAT ]', data)
+    console.log('[ CAT ]', data)
     switch (data) {
       case 'reset':
         p.kill()
@@ -54,7 +54,6 @@ function start(file) {
       start(file)
     })
   })
-  // console.log(p)
 }
 
 start('main.js')

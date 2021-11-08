@@ -14,7 +14,7 @@ m.reply(`${randHeader}
 ║
 ║ 🔢 Number : ${m.sender.split`@`[0]} ( @${m.sender.split`@`[0]} )
 ║ 🆔 JID : ${m.sender.split`@`[0] + '@s.whatsapp.net'}
-║ 🪀 WhatsApp : isBusiness.replace('Business WhatsApp', 'Business').replace('WhatsApp', 'Normal')
+║ 🪀 WhatsApp : ${isBusiness.replace('Business WhatsApp', 'Business').replace('WhatsApp', 'Normal')}
 ║ 🔋 Battery : ${m.sender.battery ? `${m.sender.battery.value}%\n${m.sender.battery.live ? '🔌 Charging...' : '⚡ Discharging'}` : 'Unknown'}
 ║ 📝 Registered : *true*
 ║

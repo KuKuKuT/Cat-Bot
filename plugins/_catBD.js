@@ -2,7 +2,7 @@ let handler = m => m
 
 handler.all = async function (m) {
 
-let date = '2021 11 1'
+let date = '2021 11 8'
 let name = this.getName(m.sender)
 let d = new Date()
 let [varsham, masam, thiyathi] = [d.getFullYear(), d.getMonth() + 1, d.getDate()]

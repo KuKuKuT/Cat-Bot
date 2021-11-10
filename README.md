@@ -30,9 +30,7 @@ $ mc
 > paste the copied code on that file.
 ```
 
-```
-
-###Step-By-Step Description:
+### Step-By-Step Description:
 
 • Enter `pkg install git` on termux
 
